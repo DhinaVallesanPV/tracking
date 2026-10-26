@@ -1,0 +1,25 @@
+# Environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Backend Data & Artifacts
+backend/data/
+backend/runs/
+backend/models/*.pt
+backend/tmp_downloaded_video.mp4
+backend/tmp_downloaded.csv
+
+# Frontend Artifacts
+frontend/node_modules/
+frontend/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generic data files if they appear at root
+*.mp4
+*.csv
+*.db-journal
